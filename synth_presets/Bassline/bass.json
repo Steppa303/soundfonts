@@ -1,0 +1,37 @@
+{
+  "masterVolume": -6.000000000000001,
+  "polyphony": 8,
+  "osc1": {
+    "waveform": "sawtooth"
+  },
+  "osc2": {
+    "waveform": "sawtooth",
+    "detune": 0
+  },
+  "oscMix": 0.5,
+  "filter": {
+    "type": "lowpass",
+    "frequency": 1946,
+    "Q": 0
+  },
+  "ampEnv": {
+    "attack": 0.01,
+    "attackCurve": "linear",
+    "decay": 0.2,
+    "decayCurve": "exponential",
+    "release": 0.39,
+    "releaseCurve": "exponential",
+    "sustain": 0.5
+  },
+  "lfo": {
+    "waveform": "sine",
+    "destination": "none",
+    "rate": 2,
+    "depth": "0.5"
+  },
+  "effects": {
+    "reverbWet": 0,
+    "delayWet": 0,
+    "delayTime": 0.25
+  }
+}

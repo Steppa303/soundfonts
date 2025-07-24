@@ -1,0 +1,37 @@
+{
+  "synthType": "fm",
+  "masterVolume": "-6",
+  "polyphony": "8",
+  "ampEnv": {
+    "attack": "0.73",
+    "decay": "1.14",
+    "sustain": "0.83",
+    "release": "0.33"
+  },
+  "filter": {
+    "type": "lowpass",
+    "cutoff": "1663",
+    "resonance": "8.6"
+  },
+  "lfo": {
+    "waveform": "triangle",
+    "destination": "filter",
+    "rate": "0.3",
+    "depth": "0.84"
+  },
+  "effects": {
+    "reverbWet": "0.16",
+    "delayWet": "0.98",
+    "delayTime": "4n"
+  },
+  "fm": {
+    "harmonicity": "3",
+    "modIndex": "24.2",
+    "modEnv": {
+      "attack": "1.46",
+      "decay": "0.88",
+      "sustain": "0.9",
+      "release": "2.83"
+    }
+  }
+}
